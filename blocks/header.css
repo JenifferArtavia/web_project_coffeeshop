@@ -77,14 +77,14 @@
   color: #838383;
   margin: 0;
 }
-.header__schedule {
+.header__schedule-footer {
   flex-direction: column;
   position: absolute;
   bottom: 40px;
   left: 80px;
 }
 
-.header__address {
+.header__address-footer {
   position: absolute;
   right: 80px;
   bottom: 40px;

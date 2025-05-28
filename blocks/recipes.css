@@ -51,6 +51,12 @@
   height: 200px;
 }
 
+.recipes__video-iframe {
+  border: none;
+  width: 450px;
+  height: 200px;
+}
+
 .recipes__video-caption {
   font-family: "Inter";
   font-style: normal;

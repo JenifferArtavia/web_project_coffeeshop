@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   padding-top: 100px;
-  margin: 0 auto 80px;
+  margin: 0 auto 20px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -24,7 +24,7 @@
 .reservation__form {
   display: flex;
   flex-direction: column;
-  margin: 80px auto 120px auto;
+  margin: 60px auto 120px auto;
   max-width: 385px;
 }
 
