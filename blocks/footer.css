@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   margin: 60px 80px 0;
+  z-index: 1;
 }
 
 .footer__logo {
@@ -27,13 +28,16 @@
   height: 340px;
   top: -128px;
   left: -44px;
-  z-index: 0%;
 }
 
 .footer__social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .footer__social-heading {
+  margin-bottom: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
@@ -42,6 +46,9 @@
 }
 
 .footer__list {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
@@ -49,15 +56,18 @@
 
 .footer__list-item {
   display: flex;
-  flex-direction: column;
-  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.footer__list-icon {
+  width: 16px;
+  height: 16px;
 }
 
 .footer__social-link {
-  display: flex;
-}
-
-.footer__social-icono {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
 }
 
 .footer__copyright {
